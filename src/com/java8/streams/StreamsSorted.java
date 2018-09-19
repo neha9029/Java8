@@ -22,7 +22,7 @@ public class StreamsSorted {
 	   List<Integer> reverseList = list.stream().sorted((i1, i2) -> -i1.compareTo(i2)).collect(Collectors.toList());
 	   System.out.println(reverseList);
 	   
-	   
+	  
 	}
 
 }
